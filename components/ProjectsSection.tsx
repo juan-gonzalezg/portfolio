@@ -29,21 +29,21 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="py-20 px-4 sm:px-6 max-w-6xl mx-auto border-t border-[#1E3653]"
+      className="py-20 px-4 sm:px-6 max-w-6xl mx-auto border-t border-[#BEB7A7]"
     >
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
         <div>
-          <h2 className="text-3xl font-bold text-[#F0D4BF] tracking-tight mb-3">
+          <h2 className="text-3xl font-bold text-[#112250] tracking-tight mb-3">
             Sección Proyectos
           </h2>
-          <p className="text-[#A4B5C4] max-w-xl">
+          <p className="text-[#3B507D] max-w-xl">
             Explora las demostraciones estilizadas e interactivas de mis desarrollos
             web y lógica de software.
           </p>
         </div>
 
         <div
-          className="flex bg-[#1E3653] p-1.5 rounded-xl border border-[#305B7E] w-fit"
+          className="flex bg-[#E7E2CE] p-1.5 rounded-xl border border-[#BEB7A7] w-fit"
           role="group"
           aria-label="Filtrar proyectos"
         >
@@ -55,8 +55,8 @@ export default function ProjectsSection() {
               aria-pressed={filter === id}
               className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-all ${
                 filter === id
-                  ? 'bg-[#864C2C] text-[#F0D4BF]'
-                  : 'text-[#A4B5C4] hover:text-[#F0D4BF]'
+                  ? 'bg-[#112250] text-[#F5F4F0]'
+                  : 'text-[#3B507D] hover:text-[#112250]'
               }`}
             >
               {label}
@@ -66,7 +66,7 @@ export default function ProjectsSection() {
       </div>
 
       {filteredProjects.length === 0 ? (
-        <p className="text-center text-[#A4B5C4] py-12">
+        <p className="text-center text-[#3B507D] py-12">
           No hay proyectos en esta categoría.
         </p>
       ) : (

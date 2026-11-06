@@ -12,6 +12,7 @@ export interface Project {
   tags: string[];
   isDeployed: boolean;
   demoUrl: string | null;
+  image: string | null;
   githubUrl: string;
   browserTitle: string;
   type: string;

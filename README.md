@@ -1,4 +1,4 @@
-# Portfolio - Juan González
+# Portafolio - Juan González
 
 Portafolio personal construido con **Next.js 16 (App Router)**, **React 19**, **TypeScript** y **Tailwind CSS 4**.
 

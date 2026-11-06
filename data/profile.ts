@@ -1,7 +1,7 @@
 export const PROFILE = {
   fullName: 'Juan Alfonzo González Guzmán',
   displayName: 'JUAN GONZÁLEZ',
-  email: 'juanglezg23@gmail.com',
+  email: 'juan.alfonzalez@gmail.com',
   location: 'Caracas, Venezuela',
   headline: 'Ingeniería en Informática | Full-Stack Developer & Security',
   githubUrl: 'https://github.com/juan-gonzalezg',

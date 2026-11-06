@@ -30,7 +30,7 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="es">
-      <body className="bg-[#071524] text-[#A4B5C4] antialiased">{children}</body>
+      <body className="bg-[#F5F4F0] text-[#3B507D] antialiased">{children}</body>
     </html>
   );
 }
