@@ -2,6 +2,29 @@ import type { Project } from '@/types';
 
 export const PROJECTS_DATA: Project[] = [
   {
+    id: 'presentaciones-ia',
+    title: 'Presentaciones Interactivas con Asistente IA',
+    shortDescription:
+      'Plataforma educativa de presentaciones interactivas con asistente IA (RAG), notas vivas y soporte offline.',
+    fullDescription:
+      'Plataforma web para presentaciones dinámicas y estudio interactivo asistido por IA. Incluye diapositivas con modo proyector y cine, asistente virtual 2D con motor RAG híbrido capaz de citar documentos técnicos en tiempo real, visor PDF con Smart Highlight, notas vivas sincronizadas y soporte completo sin conexión mediante PWA y Service Workers.',
+    category: 'web',
+    architecture: [
+      'Frontend: React 19 + TypeScript + Vite + Tailwind CSS',
+      'Gestión de Estado: Zustand con middleware persist',
+      'Motor IA: Asistente virtual 2D con arquitectura RAG híbrida',
+      'Soporte Offline & PWA: Service Worker y Cache API',
+      'Visor interactivo con react-pdf y Smart Highlight',
+    ],
+    tags: ['React 19', 'TypeScript', 'Tailwind', 'Zustand', 'RAG / IA', 'PWA'],
+    isDeployed: true,
+    demoUrl: 'https://plataforma-de-presentaciones.vercel.app/',
+    image: '/projects/presentaciones-ia.png',
+    githubUrl: 'https://github.com/juan-gonzalezg/plataforma-de-presentacion-frontend',
+    browserTitle: 'plataforma-de-presentaciones.vercel.app',
+    type: 'Interactive Web & AI Platform',
+  },
+  {
     id: 'kaiten-loco',
     title: 'Kaiten Loco – Sistema Full-Stack de Pedidos',
     shortDescription:
